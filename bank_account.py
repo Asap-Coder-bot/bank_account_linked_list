@@ -103,10 +103,3 @@ class BankAccount:
         
 
 
-List = DoublyLinkedList()
-List.add(52)
-List.add(82)
-List.add(3)
-List.remove(82)
-print(List.remove(3))
-print(List.find(52))
