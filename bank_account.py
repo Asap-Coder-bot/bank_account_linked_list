@@ -69,7 +69,7 @@ class DoublyLinkedList:
                 this_node = this_node.get_next()
         return None
 class BankAccount:
-    def __init__(self,FirstName, LastName, ID, balance=0):
+    def __init__(self,firstName, fastName, ID, balance=0):
         self.firstName = firstName
         self.lastName = lastName 
         self.ID = ID 
@@ -94,7 +94,7 @@ class BankAccount:
         return self.ID
 
     def deposit(self,amount):
-        self.balance+= amount
+        self.balance+= amountΣ
         return self.balance
 
     def withdraw(self, amount):
